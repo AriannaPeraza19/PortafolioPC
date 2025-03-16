@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ff0099; /* Color de fondo */
+    background-color: #98D2C0; /* Color de fondo */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ body {
 
 .profile-card h2 {
     font-size: 16px;
-    color: #ff0099; /* Color de sub-título */
+    color: #4F959D; /* Color de sub-título */
     margin: 10px 0;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .contact-button {
     text-decoration: none;
-    background-color: #ff0099; /* Color del botón */
+    background-color: #98D2C0; /* Color del botón */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -54,5 +54,5 @@ body {
 }
 
 .contact-button:hover {
-    background-color: #ff3385; /* Color del botón en hover */
+    background-color: #4F959D; /* Color del botón en hover */
 }
