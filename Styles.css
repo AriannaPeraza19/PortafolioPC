@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff0099; /* Color de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    background-color: #ffffff; /* Color de la tarjeta */
+    border-radius: 15px;
+    padding: 50px;
+    width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h1 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.profile-card h2 {
+    font-size: 16px;
+    color: #ff0099; /* Color de sub-título */
+    margin: 10px 0;
+}
+
+.profile-card p {
+    font-size: 14px;
+    color: #666666;
+    margin: 15px 0;
+}
+
+.contact-button {
+    text-decoration: none;
+    background-color: #ff0099; /* Color del botón */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #ff3385; /* Color del botón en hover */
+}
