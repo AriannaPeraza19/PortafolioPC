@@ -4,47 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
     <style>
-    #main-menu {
-        background-color: #C599B6;
-        color: white;
-        padding: 10px 0;
-        position: fixed; 
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1000; 
-    }
+        #main-menu {
+            background-color: #C599B6;
+            color: white;
+            padding: 10px 0;
+            position: fixed; 
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000; 
+        }
 
-    #main-menu ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
+        #main-menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
 
-    #main-menu li {
-        display: inline;
-        margin-right: 20px;
-    }
+        #main-menu li {
+            display: inline;
+            margin-right: 20px;
+        }
 
-    #main-menu li a {
-        font-family: Poppins, Helvetica, sans-serif;
-        font-size: 16px;
-        text-decoration: none;
-        padding: 6px 12px;
-        background-color: #C599B6;
-        color: white;
-    }
+        #main-menu li a {
+            font-family: Poppins, Helvetica, sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            padding: 6px 12px;
+            background-color: #C599B6;
+            color: white;
+        }
 
-    #main-menu li a:hover {
-        background-color: #a07796;
-        margin-top: -8px;
-        padding-bottom: 12px;
-    }
-</style>
+        #main-menu li a:hover {
+            background-color: #a07796;
+            margin-top: -8px;
+            padding-bottom: 12px;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        header h1 {
+            font-family: Poppins, Helvetica, sans-serif;
+            color: #8c3c8f;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
     <nav id="main-menu">
@@ -55,5 +79,18 @@
             <li><a href="Contacto.html">Contáctame</a></li>
         </ul>
     </nav>
+    <header>
+        <h1>Diseños</h1>
+    </header>
+    <section class="gallery">
+        <img src="/Imágenes/Untitled-1.png" alt="Diseño">
+        <img src="/Imágenes/Cafetería Rico Aroma (1).png" alt="Diseño">
+        <img src="/Imágenes/Cafetería Rico Aroma (2).png" alt="Diseño">
+        <img src="/Imágenes/Cafetería Rico Aroma.png" alt="Diseño">
+        <img src="/Imágenes/Copy of Proyecto.jpg" alt="Diseño">
+        <img src="/Imágenes/Copy of Proyecto (1).jpg" alt="Diseño">
+        <img src="/Imágenes/2.png" alt="Diseño">
+        <img src="/Imágenes/3.png" alt="Diseño">
+    </section>
 </body>
 </html>
