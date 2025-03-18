@@ -64,37 +64,38 @@
         </ul>
     </nav>
 
-    <div class="container">
-        <h1>CONTÁCTAME</h1  margin-top: 60px>
-        <form
-        action="https://formspree.io/f/xpwpzpob"
-        method="POST"
-        >
-        <label>
-          Nombre:
-          <input type="text" name="name">
-        </label>
-        
-        <br>
-        <label>
-          Correo electrónico:
-          <input type="email" name="email">
-        </label>
-        <br>
-        
-        <label>
-            Número telefónico:
-            <input type="text" name="phone">
-          </label>
-          <br><br>
-        
-        <label>
-          Escribe tu mensaje:
-          <textarea name="message"></textarea>
-        </label>
-        <br>
-    
-        <button type="submit">Enviar</button>
-        </form>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh;"></div>
+        <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 100%; max-width: 500px;">
+            <h1 style="color: #C599B6; text-align: center;">CONTÁCTAME</h1>
+            <form
+                action="https://formspree.io/f/xpwpzpob"
+                method="POST"
+            >
+                <label style="display: block; margin-bottom: 10px;">
+                    Nombre:
+                    <input type="text" name="name" style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                </label>
+                
+                <label style="display: block; margin-bottom: 10px;">
+                    Correo electrónico:
+                    <input type="email" name="email" style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                </label>
+                
+                <label style="display: block; margin-bottom: 10px;">
+                    Número telefónico:
+                    <input type="text" name="phone" style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                </label>
+                
+                <label style="display: block; margin-bottom: 10px;">
+                    Escribe tu mensaje:
+                    <textarea name="message" style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                </label>
+                
+                <button type="submit" style="display: block; width: 100%; padding: 10px; background-color: #C599B6; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                    Enviar
+                </button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
