@@ -54,17 +54,53 @@
     justify-content: center; 
     align-items: center; 
         }
-        .ex-container {
+    .ex-container {
+        margin-top: 5px; 
+        margin-left: 90px;
+        display: flex; 
+        justify-content: flex-start; 
+        align-items: center; 
+    }
 
-            h2{
-                color:#a07796
-            }
-    margin-top: 5px; 
-    margin-left: 90px;
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: center; 
-        }
+    .ex-container h2 {
+        color: #a07796;
+    }
+
+    .ex-container p {
+        margin-left: 20px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .cur-container h2 {
+        color: #a07796;
+        margin-top: 5px; 
+        margin-left: 90px;
+        display: flex; 
+        justify-content: flex-start; 
+        align-items: center; 
+    }
+    .cur-container p {
+        background-color: rgb(250, 240, 240);
+         width: 200px;
+         border-radius: 15px;
+        color: #000000;
+        margin-left: 90px;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .Idioma-container {
+        margin-top: 10px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background-color: rgb(243, 216, 250);
+       column-gap: 20px;
+    }
+    .Idioma-container h2{
+        color:#a07796
+    }
 
         .header-box {
             display: flex;
@@ -120,17 +156,43 @@
         </div>
     </div>
 </section>
-
 <section>
-    <div class="ex-container">
-            <h2>Experiencia</h2>
-            <p> Diseñadora de publicidad en Rico Aroma </p>
-            <p> Diseñadora de Experiencia de Usuario en App </p>
-        </div>
+    <div class="Idioma-container">
+        <h2>Idiomas</h2>
+        <p>✦ Inglés B2: certificado por British Council</p>
+        <p>✦ Italiano A1 </p>
+        <p>✦ Francés A1 </p>
     </div>
 </section>
-
-
+<section>
+    <div class="ex-container">
+        <h2>Experiencia</h2>
+    <p>Diseñadora en publicidad (Rico Aroma)</p>
+</div>
+</section>
+<style>
+    table {background-color: rgb(255, 242, 242); border-radius: 15px; padding: 10px; }
+</style>
+<section>
+    <div class="cur-container">
+        <h2>Cursos</h2>
+        <table style="margin-left: 90px; border-collapse: collapse; font-family: Poppins; font-size: 15px;">
+            <tr>
+                <td>• Curso de Interior Design de EBAC</td>
+                <td>• Curso de Ciencia de Datos Azure</td>
+                <td>• Curso de Lógica de Programación de Alura</td>
+            </tr>
+            <tr>
+                <td>• Curso de UX/UI Design</td>
+                <td>• Curso de Digital Marketing Strategy</td>
+                <td>• Motion graphics en After Effects</td>
+            </tr>
+            <tr>
+                <td>• Curso de Diseño Web Responsivo</td>
+            </tr>
+        </table>
+    </div>
+</section>
 
 </body>
 </html>
