@@ -19,7 +19,7 @@ body {
     align-items: center;
 }
 
-.profile-card {
+.Presentacion {
     background-color: #ffffff; /* Color de la tarjeta */
     border-radius: 15px;
     padding: 50px;
@@ -27,18 +27,18 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.profile-card h1 {
+.Presentacion h1 {
     font-size: 24px;
     color: #333333;
 }
 
-.profile-card h2 {
+.Presentacion h2 {
     font-size: 16px;
     color: #c47dac; /* Color de sub-título */
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
-.profile-card p {
+.Presentacion p {
     font-size: 14px;
     color: #666666;
     margin: 15px 0;

@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Ari's profile</title>
+    <title>Portafolio de Ari</title>
     <style>
         body {
             margin: 0;
@@ -55,7 +54,7 @@
         }
     </style>
 </head>
-<body>
+<body class="contactame"></body>
     <nav id="main-menu">
         <ul>
             <li><a href="index.html">Inicio</a></li>
@@ -65,21 +64,37 @@
         </ul>
     </nav>
 
-    <img src="/Imágenes/Dibujo_sobremi.png" alt="Mi dibujo" width="280" height="280">
-    <style>
-        
-    </style>
     <div class="container">
-        <div class="Presentacion">
-            <h1>Hola! Soy Arianna Peraza</h1>
-            <h2>
-                Estudiante de Ingeniería en Diseño Multimedia</h2>
-            <p>
-                Me gusta todo lo que tiene que ver con el cine, la música y la fotografía.
-                Soy una persona creativa y apasionada por lo que hago.
-            </p>
-            <a href="mailto:190521@mail.unacar.mx" class="contact-button">CONTACTO</a>
-        </div>
-    </div>
+        <h1>CONTÁCTAME</h1  margin-top: 60px>
+        <form
+        action="https://formspree.io/f/xpwpzpob"
+        method="POST"
+        >
+        <label>
+          Nombre:
+          <input type="text" name="name">
+        </label>
+        
+        <br>
+        <label>
+          Correo electrónico:
+          <input type="email" name="email">
+        </label>
+        <br>
+        
+        <label>
+            Número telefónico:
+            <input type="text" name="phone">
+          </label>
+          <br><br>
+        
+        <label>
+          Escribe tu mensaje:
+          <textarea name="message"></textarea>
+        </label>
+        <br>
+    
+        <button type="submit">Enviar</button>
+        </form>
 </body>
 </html>
